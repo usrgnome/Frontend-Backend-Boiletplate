@@ -7,7 +7,7 @@
     "dev-web": "webpack serve --env production",
     "dev-server": "nodemon server/src/index.ts",
     "build-web": "rm -rf ./client/dist && mkdir ./client/dist && webpack --mode=production",
-    "build-server": "rm -rf ./server/dist && mkdir ./server/dist && tsc && cp server/src/Compiler/Compiler.js server/dist/Compiler/",
+    "build-server": "rm -rf ./server/dist && mkdir ./server/dist && tsc",
     "start-server": "node server/dist/index.js"
   },
   "keywords": [],
